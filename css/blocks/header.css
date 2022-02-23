@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    background-image: url('/assets/images/pattern-bg.png');  
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: var(--white);
+    z-index: 10;
+}
+@media only screen and (max-width: 768px){
+    .header{
+        height: 30vh;
+    }
+    .header__title{
+        font-size: 1.5rem;
+    }     
+
+}
+@media only screen and (max-width: 375px){
+    .header__title{
+        font-size: 1.3rem;
+    }     
+}

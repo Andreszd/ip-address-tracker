@@ -1,0 +1,9 @@
+@import './root.css';
+
+/* blocks */
+
+@import '../blocks/header.css';
+@import '../blocks/_main.css';
+@import '../blocks/_search.css';
+@import '../blocks/_map.css';
+@import '../blocks/_info-location.css';

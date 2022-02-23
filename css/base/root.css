@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+:root { 
+    --white: #f2f2f2;
+    --gray-200: hsl(0, 0%, 17%);
+    --gray-100: hsl(0, 0%, 59%);
+}
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
